@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Domain;
 
 namespace Application.Core
 {
@@ -10,6 +11,7 @@ namespace Application.Core
     {
         public MappingProfiles()
         {
+            CreateMap<Competition, Competition>();
         }
     }
 }
